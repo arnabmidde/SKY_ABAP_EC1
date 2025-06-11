@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MM_IDOC_BOMMAT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Idoc data for BOMMAT</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADJUST_SEGMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adjust segments</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get details from STKO and STPO tables</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_MAST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for MAST</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_STKO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for STKO</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_STPO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for STPO</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GWA_E1MASTM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Master material BOM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GWA_E1STKOM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Master BOM (STKO)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GWA_E1STPOM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Master BOM Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GWA_E1STZUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Master BOM (STZU)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADJUST_SEGMENTS</CMPNAME>
+     <SCONAME>CT_IDOC_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for EDIDD (IDoc Data Records)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADJUST_SEGMENTS</CMPNAME>
+     <SCONAME>IS_IDOC_CONTROL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Control record (IDoc)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
