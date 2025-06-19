@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_FTS_ORDER_REASON_CODE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Example Implementation for BADI Definition MB_MIGO_BADI</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Custom Fields</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>No reason code found with matching parameters(Movement type, customer number and specialindicator)values</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>在外部屏幕输入数字</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (例子)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>2</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>ป้อนค่าตัวเลขบนจอภาพภายนอก</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (ตัวอย่าง)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>3</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>외부화면에 번호를 입력하십시오</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (예제)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Introduceţi un număr pe ecranul extern</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (exemplu)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Vnesite številko na eksternem ekranu</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (primer)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Unesite broj na vanjskom ekranu</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (primjer)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>8</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Введіть номер на зовнішньому екрані</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (приклад)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>A</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>إدخال رقم على الشاشة الخارجية</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (مثال)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>הזנת מספר על המסך החיצוני</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI -דוגמא-</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>C</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Zadejte číslo na externí obrazovce</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (příklad)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Geben Sie eine Nummer auf dem externen Screen ein</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (Beispiel)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Entrez un numéro dans l&apos;écran externe</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (exemple)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Καταχωρίστε αριθμό στην εξωτερική οθόνη</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (Παράδειγμα)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>H</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Adjon meg számot a külső képernyőn</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (példa)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Inserire un numero nella videata esterna</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (esempio)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>外部画面に番号を入力してください</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (例)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>K</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Indtast nummer på ekstern skærm</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (eksempel)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Należy wprowadzić numer na ekranie zewnętrznym</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (przykład)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>M</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>在外部畫面上輸入號碼</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI〈範例〉</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>N</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Voer een nummer op het externe scherm in</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (voorbeeld)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>O</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Oppgi et nummer i det eksterne skjermbildet!</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (eksempel)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Entrar um número na tela externa</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (exemplo)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>Q</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Zadajte číslo na externej obrazovke</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (Príklad)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Введите номер на внешнем экране</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (пример)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Introduzca un número en la imagen externa</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (ejemplo)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>T</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Harici ekrana bir numara girin</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (örnek)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>U</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Syötä numero ulkoiseen näyttöön</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (esimerkki)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>V</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Ange ett nummer på den externa skärmen</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BAdI (exempel)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Въвеждане на брой върху външен екран</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (Пример)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>묩</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>बाह्य स्क्रीन पर कोई संख्या प्रविष्ट करें</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (उदाहरण)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>쁩</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Nhập một mã trên màn hình bên ngoài</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>MIGO BADI (Ví dụ)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_CLASS_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class ID for MIGO Components (External Detail Screen)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_EXTDATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with External Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_CANCEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Cancel Mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_NO_INPUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mode &apos;Not Ready for Input&apos;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>Z_REAS_CD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Order Reason Code</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
